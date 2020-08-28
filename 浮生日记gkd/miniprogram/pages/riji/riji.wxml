@@ -1,0 +1,34 @@
+<view class="weathernow">
+
+<view class="weatherimage">
+  <image class="wimage" src='/images/{{now.cond_code}}.png'></image>
+  <text>{{city}}</text>
+</view>
+
+<view class='weatherinfo'>
+  <view class="weatherinfobox">
+  <text class="a">{{now.tmp}}</text>
+  <view class="bc">
+    <view class="b">℃</view>
+    <view class="c">{{now.cond_txt}}</view>
+  </view>
+  <view class="d">{{time}}</view>
+  <view class="e">空气：优</view>
+  <view class="f">湿度：{{now.hum}}%</view>
+  </view>
+</view>
+</view>
+
+<view>
+  <button bindtap="gotoaddpage" >添加日记</button>
+</view>
+
+<view class="zuijinriji">
+  <view class="top">
+    <text>最近日记</text>
+  </view>
+  <view class="zuijinrijizhanshi">
+    <image class="yulantupian" src="{{imgurl}}"></image>
+    <text class="yulanwenzi">{{neirong}}</text>
+  </view>
+</view>

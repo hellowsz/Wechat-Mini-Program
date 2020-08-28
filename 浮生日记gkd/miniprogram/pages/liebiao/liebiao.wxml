@@ -1,0 +1,17 @@
+<view class="pickerdate">
+  <picker mode='date' fields="day" class="picker" bindchange="changeDate">
+    <view class="pickerview">
+      <view>{{date}}</view>
+    </view>
+  </picker>
+</view>
+
+<view class="riji-list">
+  <view class="riji-item" wx:for="{{rijiList}}" wx:key="{{item._id}}" >
+    <image src="{{item.imgurl}}" ></image>
+    <text bindtap = 'goToDetail' data-id="{{item._id}}">{{item.biaoti}}————————————{{item.neirong}}</text>
+  </view>
+</view>
+
+
+

@@ -1,0 +1,119 @@
+.weathernow{
+  height: 450rpx;
+  width: 650rpx;
+  background-color:rgb(51, 212, 212);
+  display: flex;
+  flex-direction: row;
+  border-radius: 25px;
+  padding: 20px;
+  margin: auto;
+  margin-top: 20px;
+}
+.weatherimage{
+  height:450rpx;
+  width: 50%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+.weatherinfo{
+  height: 450rpx;
+  width:50%;
+}
+.wimage{
+    height: 200rpx;
+    width: 250rpx;
+    margin-top: 80rpx;
+}
+.weatherinfobox{
+  height: 250rpx;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  border-radius: 25px;
+  padding: 20px;
+  margin: auto;
+  margin-top: 20px;
+}
+.bc{
+
+}
+
+.a{
+  height: 50px;
+  width: 50px;
+  font-size: 40px;
+  color: white;
+}
+.b{
+  height: 25px;
+  width: 50px;
+  color: white;
+}
+.c{
+  height: 25px;
+  width: 50px;
+  color: white;
+}
+.d{
+  height:40px ;
+  width: 100px;
+  color: white;
+}
+.e{
+  height:20px ;
+  width: 100px;
+  color: white;
+}
+.f{
+  height:20px ;
+  width: 100px;
+  color: white;
+}
+
+.zuijinriji{
+  height: 450rpx;
+  width: 650rpx;
+  background-color: skyblue;
+  display: flex;
+  flex-direction: column;
+  border-radius: 25px;
+  padding: 20px;
+  margin: auto;
+  margin-top: 20px;
+  align-items: center;
+  justify-content: center;
+}
+.top{
+  height: 50rpx;
+  width: 500rpx;
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+  margin: auto;
+  margin-top: 0px;
+  border-radius: 25px;
+  padding: 10px;
+  justify-content: center;
+  
+}
+
+.zuijinrijizhanshi{
+  height: 65%;
+  width: 500rpx;
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+  margin: auto;
+  margin-top: 0px;
+  border-radius: 25px;
+  padding: 10px;
+}
+.yulantupian{
+  height: 100%;
+  width: 50%;
+}
+.yulanwenzi{
+  height: 100%;
+  width: 50%;
+}

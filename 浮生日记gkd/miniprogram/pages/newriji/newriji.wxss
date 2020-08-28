@@ -1,0 +1,29 @@
+.uploadimagebutton{
+    width: 200rpx;
+    height: 320rpx;
+    margin-top: 20rpx;
+    color: #999999;
+    border-radius: 0rpx;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 30rpx;
+    border-radius: 50%;
+  }
+  
+  .btnImg {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .btn1::after {
+    border: 0; 
+  }
+  input{
+    border: 1px solid red;
+  }
+  textarea{
+    border:1px solid black;
+    width: 100%;
+  }

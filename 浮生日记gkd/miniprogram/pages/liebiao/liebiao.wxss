@@ -1,0 +1,42 @@
+.pickerdate{
+  height: 40rpx;
+  width: 400rpx;
+  background-color: aqua;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: auto;
+  margin-top: 0px;
+  border-radius: 25px;
+  padding: 10px;
+}
+.picker{
+}
+.pickerview{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  height: 40rpx;
+  width: 400rpx;
+}
+
+
+.riji-list{
+  min-height: 600rpx;
+  padding: 15rpx;
+}
+.riji-item{
+  display: flex;
+  flex-direction: row;
+  border-bottom:1rpx solid black;
+}
+.riji-item image{
+  height: 150rpx;
+  width: 230rpx;
+  margin: 10rpx;
+}
+.riji-item text{
+  width:100%;
+  line-height: 60rpx;
+  font-size:40rpx;
+}

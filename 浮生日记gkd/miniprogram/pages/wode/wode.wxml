@@ -1,0 +1,14 @@
+<view class="myLogin">
+  <block wx:if="{{isLogin}}">
+    <image class="myLogin image" src="{{src}}"></image>
+    <text class="myLogin text">{{nickName}}</text>
+  </block>
+  <button wx:else open-type="getUserInfo" bindgetuserinfo="getMyInfo">未登录，点此登录</button>
+</view>
+
+<view>
+  <view>
+    <button type="primary">帮助</button>
+  </view>
+  <view></view>
+</view>

@@ -1,0 +1,11 @@
+<view class="container">
+  <view class="title">{{biaoti}}</view>
+  <view class="poster">
+    <image src="{{imgurl}}"></image>
+  </view>
+  <view class="content">
+    <text>{{neirong}}</text>
+  </view>
+  <view class="add_date">{{time}}</view>
+  <view>{{city}}</view>
+</view>
